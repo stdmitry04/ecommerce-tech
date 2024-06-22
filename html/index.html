@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html" class="logo"><i class='bx bx-basket'></i>Electronic</a>
+            </div>
+            <nav class="left-bar">
+                <ul>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <nav class="right-bar">
+                <ul>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="#" id="cart-button" style="color:purple"><i class='bx bx-cart bx-md bx-border'></i></a>
+        </div>
+    </div>
+    <!-- Cart Menu -->
+    <div id="cart-menu" class="cart-menu">
+        <div class="cart-title">Your Cart</div>
+        <div id="cart-content" class="cart-content"></div>
+        <div class="checkout">
+            <p style="font-size: 24px;">Total: $0.00</p>
+            <button type="button" class="order-button">Order now</button>
+        </div>
+    </div>
+    <!--Home-->
+    <section class="home swiper" id="home">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="text-content">
+                            <h1 class="welcome-message">Welcome to our store!<br>You can shop for <span class="hardware">Apple products</span> here!</h1>
+                        </div>
+                        <div class="image-content">
+                            <img src="../imgs/watch.png" alt="laptops">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="text-content">
+                            <h1 class="promo-message">Get 12 months of <span class="free-service">free service</span> when buying a new iPhone!<br>Call for details: <br> <span class="phone-number">+1-517-999-99-99</span></h1>
+                        </div>
+                        <div class="image-content">
+                            <img src="../imgs/phone.png" alt="phone-promo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next" style="color:purple"></div>
+            <div class="swiper-button-prev" style="color:purple"></div>
+        </div>
+    </section>
+    <!--Swiper JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Link to JS-->
+    <script src="../js/main.js"></script>
+    <!--Script to icons-->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>

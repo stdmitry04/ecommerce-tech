@@ -1,0 +1,28 @@
+
+.contact {
+    padding: 20px;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p, .contact ul {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    padding-left: 20px;
+}
+
+.contact ul ul {
+    margin-top: 10px;
+}
+
+.map {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

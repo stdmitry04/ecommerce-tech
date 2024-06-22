@@ -1,0 +1,49 @@
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#product1 {
+    margin-left: 55px;
+    font-size: 24px;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to next row */
+    justify-content: space-between;
+    gap: 20px; /* Reduced gap for better spacing */
+}
+
+#product1 .pro{
+    margin:15px 0;
+    width: 15%;
+    min-width: 150px;
+    padding: 10px 12px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+
+.pro img {
+    width:150px;
+    height:auto;
+    border-radius: 20px;
+    border:none;
+    object-fit:contain;
+}
+
+.buy{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.buy h3{
+    float:left;
+    margin:0;
+}

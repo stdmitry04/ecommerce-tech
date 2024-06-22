@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/products1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html" class="logo"><i class='bx bx-basket'></i>Electronic</a>
+            </div>
+            <nav class="left-bar">
+                <ul>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <nav class="right-bar">
+                <ul>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="#" id="cart-button" style="color:purple"><i class='bx bx-cart bx-md bx-border'></i></a>
+        </div>
+    </div>
+    <!-- Cart Menu -->
+    <div id="cart-menu" class="cart-menu">
+        <div class="cart-title">Your Cart</div>
+        <div id="cart-content" class="cart-content"></div>
+        <div class="checkout">
+            <p style="font-size: 24px;">Total: $0.00</p>
+            <button type="button" class="order-button">Order now</button>
+        </div>
+    </div>
+
+
+
+    <div class="featured">
+        <h1>Featured products</h1>
+    </div>
+
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro">
+                <img src="../imgs/ipad.jpg" alt="ipad">
+                <div class="description" style="font-size:16px;">
+                    <h2>Apple iPad Pro 13 Black</h2>
+                    <div class="buy">
+                        <h3>499$</h3>
+                        <a href="#"><i class='bx bx-cart-add bx-md' style="color:#ff6347;" onclick="addToCart(3)"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-container">
+            <div class="pro">
+                <img src="../imgs/iphone14.jpeg" alt="ipad">
+                <div class="description" style="font-size:16px;">
+                    <h2>Apple iPhone 14 Blue</h2>
+                    <div class="buy">
+                        <h3>699$</h3>
+                        <a href="#"><i class='bx bx-cart-add bx-md' style="color:#ff6347;" onclick="addToCart(2)"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-container">
+            <div class="pro">
+                <img src="../imgs/macbook-pro-13.jpeg" alt="ipad">
+                <div class="description" style="font-size:16px;">
+                    <h2>Apple MacBook Pro 13"</h2>
+                    <div class="buy">
+                        <h3>1299$</h3>
+                        <a href="#"><i class='bx bx-cart-add bx-md' style="color:#ff6347;" onclick="addToCart(1)"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-container">
+            <div class="pro">
+                <img src="../imgs/homepod.jpeg" alt="ipad">
+                <div class="description" style="font-size:16px;">
+                    <h2>Apple HomePod Mini</h2>
+                    <div class="buy">
+                        <h3>199$</h3>
+                        <a href="#"><i class='bx bx-cart-add bx-md' style="color:#ff6347;" onclick="addToCart(4)"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-container">
+            <div class="pro">
+                <img src="../imgs/airpods-max.jpeg" alt="ipad">
+                <div class="description" style="font-size:16px;">
+                    <h2>Apple AirPods Max Green</h2>
+                    <div class="buy">
+                        <h3>499$</h3>
+                        <a href="#"><i class='bx bx-cart-add bx-md' style="color:#ff6347;" onclick="addToCart(6)"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="pro-container">
+            <div class="pro">
+                <img src="../imgs/apple-pencil" alt="ipad">
+                <div class="description" style="font-size:16px;">
+                    <h2>Apple Pencil</h2>
+                    <div class="buy">
+                        <h3>119$</h3>
+                        <a href="#"><i class='bx bx-cart-add bx-md' style="color:#ff6347;" onclick="addToCart(5)"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Swiper JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Link to JS-->
+    <script src="../js/main.js"></script>
+    <!--Script to icons-->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-p1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(175px,225px));
+    justify-content:center;
+    gap: 1.5rem;
+    margin: 15px 30px;
+
+}
+
+.pro {
+    position: relative;
+    text-align:center;
+}
+
+.pro:hover{
+    padding: 10px;
+    border: 1px solid #333;
+    transition: 0.5s;
+}
+
+.pro img {
+    width: 175px;
+    height: auto;
+}
+
+
+.buy{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:0px 15px;
+}
+.buy h3{
+    float:left;
+    margin:0;
+}
