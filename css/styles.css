@@ -223,7 +223,7 @@ body, html {
 
 /* Cart quantity input */
 .cart-quantity {
-    width: 25px;
+    width: 40px;
     padding: 5px;
     font-size: 16px;
     border: 1px solid #ccc;
